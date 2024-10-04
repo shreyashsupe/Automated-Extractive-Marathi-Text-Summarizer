@@ -1,3 +1,5 @@
+## Automated-Extractive-Marathi-Text-Summarizer
+
 This project focuses on implementing an extractive text summarization tool for Marathi news articles using the TextRank algorithm. The goal is to automatically generate concise summaries by identifying and extracting the most important sentences from the input text. This tool can be used for processing and summarizing Marathi text, particularly news articles, and can help in reducing the reading time while retaining essential information.
 
 ## Overview
@@ -22,31 +24,31 @@ This project integrates several powerful tools and libraries to achieve the desi
 
 ## Project Structure
 
-marathi-text-summarization/
-│
-├── data/               # Contains raw and preprocessed Marathi news articles
-├── src/                # Source code for text preprocessing and summarization
-├── app.py              # Main Streamlit application file
-├── requirements.txt    # List of required Python packages
-├── README.md           # Project documentation
+    marathi-text-summarization/
+    │
+    ├── data/               # Contains raw and preprocessed Marathi news articles
+    ├── src/                # Source code for text preprocessing and summarization
+    ├── app.py              # Main Streamlit application file
+    ├── requirements.txt    # List of required Python packages
+    ├── README.md           # Project documentation
 
 
 ## Installation
 
 Follow these steps to set up the project on your local machine:
-1. Clone the repository:
-    git clone https://github.com/yourusername/marathi-text-summarization.git
-    cd marathi-text-summarization
+    1. Clone the repository:
+        git clone https://github.com/yourusername/marathi-text-summarization.git
+        cd marathi-text-summarization
 
-2. Create and activate a virtual environment:
-    python -m venv venv
-    source venv/bin/activate  # For Windows: venv\Scripts\activate
+    2. Create and activate a virtual environment:
+        python -m venv venv
+        source venv/bin/activate  # For Windows: venv\Scripts\activate
 
-3. Install the required dependencies:
-    pip install -r requirements.txt
+    3. Install the required dependencies:
+        pip install -r requirements.txt
 
-4. Run the Streamlit application:
-    streamlit run app.py
+    4. Run the Streamlit application:
+        streamlit run app.py
 
 
 ## Usage
